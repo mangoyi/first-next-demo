@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "prebuild": "npm install @next/swc-linux-x64-gnu",
+    "prebuild": "npm install @next/swc-linux-x64-gnu @cloudflare/next-on-pages",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
