@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  experimental: {
+    forceSwcTransforms: true,  // 强制使用 SWC 替代 lightningcss
+  },
 };
 
 export default nextConfig;
